@@ -1,6 +1,6 @@
 # quarkus--configprovider-junitext
 
-reproducer for not able to get config within junit-exension.
+reproducer for https://github.com/quarkusio/quarkus/issues/46383
 
 while config can still be received directly in junit-test [ConfigProviderDirectlyInQuarkusTest](src/test/java/org/acme/ConfigProviderDirectlyInQuarkusTest.java) it fails in Junit-Extension [ConfigProviderFromJunitExtensionTest](src/test/java/org/acme/ConfigProviderFromJunitExtensionTest.java)
 
